@@ -34,14 +34,14 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
   <tr>
   <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/login.png">
-        <img src="screenshots/login.png" alt="Login Page">
+        <img src="screenshots/Orders.png" alt="Orders">
       </a>
       <br />
       <p>Login Page</p>
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/dashboard.png">
-        <img src="screenshots/dashboard.png" alt="Dashboard">
+        <img src="screenshots/Dashboard.png" alt="Dashboard">
       </a>
       <br />
       <p>Dashboard</p>
@@ -55,14 +55,14 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/product.png">
-        <img src="screenshots/product.png" alt="Products">
+        <img src="screenshots/emails.png" alt="Email Spam Filtering">
       </a>
       <br />
       <p>Products</p>
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/tasks.png">
-        <img src="screenshots/tasks.png" alt="Tasks">
+        <img src="screenshots/Senanalysis.png" alt="Sentiment Analysis">
       </a>
       <br />
       <p>Tasks</p>
