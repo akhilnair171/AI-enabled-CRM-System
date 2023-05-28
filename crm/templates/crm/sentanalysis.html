@@ -1,0 +1,27 @@
+{% extends 'crm/main.html' %}
+{% block content %}
+
+<div class="container" style="margin-top: 10vh; border-radius: 0px; background: #009879; height: 400px; padding: 10px;">
+        <center><h1 class="text-light">SENTIMENT ANALYSIS</h1>
+        <br></center>
+        <form method="POST" class="form-group">
+            {% csrf_token %}
+{#            {{form.as_p}}#}
+            <center><p class="text-light" style="font-size:25px; font-family: sans-serif; ">Enter sentence/statement said by customer to analyse if they are a potential customer for your organization</p></center>
+            {{form.Sentence}}
+            <br>
+            <button class="btn btn-warning form-control" type="submit">ANALYSE</button>
+        </form>
+        <h1 style="font-family: sans-serif; font-size: 25px ;color: white;">Result</h1>
+        {% if text == 'Positive' %}
+        <div class="positive" style="background-color: green; width: 600px; border-radius: 24px; padding: 12px; color: white; text-align: center;align-content: center">
+            POSITIVE - POTENTIAL CUSTOMER TO YOUR COMPANY
+        </div>
+        {% elif text == 'Negative' %}
+        <div class="negative" style="background-color: red; width: 600px; border-radius: 24px; padding: 12px; color: white; text-align: center;align-content: center">
+            NEGATIVE - NOT A POTENTIAL CUSTOMER TO YOUR COMPANY
+        </div>
+        {% endif %}
+    </div>
+
+{% endblock content %}

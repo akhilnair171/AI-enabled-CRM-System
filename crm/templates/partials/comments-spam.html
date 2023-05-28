@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="comments">
+
+    {% for comment,prediction in comments %}
+
+    {% if prediction %}
+
+    <div class="flex flex-col m-3">
+        <div class="block p-6 rounded-lg shadow-lg bg-red-400 max-w-[75%]">
+            <p class="text-gray-700 text-base mb-4">
+                {{comment.text}}
+            </p>
+            {% if user.is_staff%}
+                <button type="button" class="inline-block px-6 py-2 border-2 border-white text-white" >Delete Mail</button>
+            {% endif %}
+        </div>
+    </div>
+        {% else %}
+
+        <div class="flex flex-col m-3">
+        <div class="block p-6 rounded-lg shadow-lg bg-green-400 max-w-[75%]">
+            <p class="text-gray-700 text-base mb-4">
+                Subject : {{comment.text}}
+            </p>
+            {% if user.is_staff%}
+                <button type="button" class="inline-block px-6 py-2 border-2 border-white text-white"
+                hx-delete="{% url 'delete_mail' comment.pk %}">Delete Mail</button>
+            {% endif %}
+        </div>
+    </div>
+
+        {% endif %}
+    {% endfor %}
+</div>
+    <script>
+    htmx.on('htmx:afterRequest', function(e) {
+        console.log(e)
+        if ( e.detail.requestConfig.verb === 'delete'){
+            const src = e.detail.elt
+            const card = htmx.closest(src, 'div[class="flex flex-col m-3"]')
+            htmx.remove(card)
+        }
+    })
+</script>
+</body>
+</html>

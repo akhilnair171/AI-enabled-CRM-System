@@ -1,0 +1,49 @@
+{% extends 'crm/main.html' %}
+
+{% block content %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.8.5"></script>
+<h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-teal-600">
+    Emails</h1>
+          <div class="col  d-flex justify-content-start">
+    <a class="btn btn-warning font-weight-bold mx-2" href="{% url 'create_comment' %}"> + Compose Email</a>
+              <button class="bg-yellow-300 hover:bg-yellow-700 text-black font-medium py-2 px-4 rounded "
+            hx-get = "{% url 'check_spam' %}"
+            hx-target="#comments"
+            hx-swap="outerHTML">
+        Detect Spam
+    </button>
+  </div>
+
+
+<div id="comments">
+
+    {% for comment in comments %}
+
+    <div class="flex flex-col m-3">
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-[75%]">
+            <p class="text-gray-700 text-base mb-4">
+                Subject : {{comment.text}}
+            </p>
+            {% if user.is_staff%}
+                <button type="button" class="inline-block px-6 py-2 border-2 border-green-600 text-gray-500"
+                hx-delete="{% url 'delete_mail' comment.pk %}">Delete Mail</button>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+    <script>
+    htmx.on('htmx:afterRequest', function(e) {
+        console.log(e)
+        if ( e.detail.requestConfig.verb === 'delete'){
+            const src = e.detail.elt
+            const card = htmx.closest(src, 'div[class="flex flex-col m-3"]')
+            htmx.remove(card)
+        }
+    })
+</script>
+
+{% endblock content %}
+</body>
+</html>
