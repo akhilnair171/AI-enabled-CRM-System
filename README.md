@@ -41,7 +41,7 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/dashboard.png">
-        <img src="screenshots/Dashboard.png" alt="Dashboard">
+        <img src="screenshots/dashboard.png" alt="Dashboard">
       </a>
       <br />
       <p>Dashboard</p>
@@ -58,14 +58,14 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
         <img src="screenshots/emails.png" alt="Email Spam Filtering">
       </a>
       <br />
-      <p>Products</p>
+      <p>Email Spam Filtering</p>
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/tasks.png">
         <img src="screenshots/Senanalysis.png" alt="Sentiment Analysis">
       </a>
       <br />
-      <p>Tasks</p>
+      <p>Sentiment Analysis</p>
     </td>
     </tr>
 </table>
