@@ -55,7 +55,7 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
     </td>
     <td align="center">
       <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/product.png">
-        <img src="screenshots/emails.png" alt="Email Spam Filtering">
+        <img src="screenshots/email.png" alt="Email Spam Filtering">
       </a>
       <br />
       <p>Email Spam Filtering</p>
