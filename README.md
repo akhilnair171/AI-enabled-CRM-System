@@ -37,7 +37,7 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
         <img src="screenshots/Orders.png" alt="Orders">
       </a>
       <br />
-      <p>Login Page</p>
+      <p>Orders</p>
     </td>
     <td align="center">
       <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/dashboard.png?raw=true">
