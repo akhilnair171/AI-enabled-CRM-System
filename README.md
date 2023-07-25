@@ -33,35 +33,35 @@ The user has the accessibility to communicate and ask queries to an inbuilt AI C
 <table>
   <tr>
   <td align="center">
-      <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/login.png">
+      <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/Orders.png?raw=true">
         <img src="screenshots/Orders.png" alt="Orders">
       </a>
       <br />
       <p>Login Page</p>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/dashboard.png">
+      <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/dashboard.png?raw=true">
         <img src="screenshots/dashboard.png" alt="Dashboard">
       </a>
       <br />
       <p>Dashboard</p>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/contacts.png">
+      <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/contacts.png?raw=true">
         <img src="screenshots/contacts.png" alt="Contacts">
       </a>
       <br />
       <p>Contacts</p>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/product.png">
+      <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/email.png?raw=true">
         <img src="screenshots/email.png" alt="Email Spam Filtering">
       </a>
       <br />
       <p>Email Spam Filtering</p>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/masoodmomin/teal-crm/main/screenshots/tasks.png">
+      <a href="https://github.com/akhilnair171/AI-based-CRM-System/blob/main/screenshots/Senanalysis.png?raw=true">
         <img src="screenshots/Senanalysis.png" alt="Sentiment Analysis">
       </a>
       <br />
