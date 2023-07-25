@@ -1,4 +1,4 @@
-# MOJO CRM - An AI based CRM system
+# MOJO CRM - An AI enabled CRM system
 This is a AI enhanced Customer Relationship System Project made by me for my Semester 6 Blackbook project . The main motive behind developing this CRM system is that traditional CRMs existing today have most of the required features but almost every single system is dependant on Manual  work and in this progressing world of AI and automation , I intend to create a complete CRM with everything from basic to additional automated features which will help businesses as well as their customers to increase their efficiency and ensure smoother work flow.
 
 The main features of this CRM system include :
